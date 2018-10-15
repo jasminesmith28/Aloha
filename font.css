@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-MediumItalic.eot');
+    src: url('font/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/Raleway-MediumItalic.woff2') format('woff2'),
+        url('font/Raleway-MediumItalic.woff') format('woff'),
+        url('font/Raleway-MediumItalic.ttf') format('truetype'),
+        url('font/Raleway-MediumItalic.svg#Raleway-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/font/Raleway-LightItalic.eot');
+    src: url('font/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/Raleway-LightItalic.woff2') format('woff2'),
+        url('font/Raleway-LightItalic.woff') format('woff'),
+        url('font/Raleway-LightItalic.ttf') format('truetype'),
+        url('font/Raleway-LightItalic.svg#Raleway-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Medium.eot');
+    src: url('font/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Raleway-Medium.woff2') format('woff2'),
+        url('font/Raleway-Medium.woff') format('woff'),
+        url('font/Raleway-Medium.ttf') format('truetype'),
+        url('font/Raleway-Medium.svg#Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Light.eot');
+    src: url('font/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Raleway-Light.woff2') format('woff2'),
+        url('font/Raleway-Light.woff') format('woff'),
+        url('font/Raleway-Light.ttf') format('truetype'),
+        url('font/Raleway-Light.svg#Raleway-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font/PlayfairDisplay-Bold.eot');
+    src: url('font/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('font/PlayfairDisplay-Bold.woff') format('woff'),
+        url('font/PlayfairDisplay-Bold.ttf') format('truetype'),
+        url('font/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font/PlayfairDisplay-Regular.eot');
+    src: url('font/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('font/PlayfairDisplay-Regular.woff') format('woff'),
+        url('font/PlayfairDisplay-Regular.ttf') format('truetype'),
+        url('font/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font/PlayfairDisplay-BoldItalic.eot');
+    src: url('font/PlayfairDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('font/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('font/PlayfairDisplay-BoldItalic.woff') format('woff'),
+        url('font/PlayfairDisplay-BoldItalic.ttf') format('truetype'),
+        url('font/PlayfairDisplay-BoldItalic.svg#PlayfairDisplay-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font/PlayfairDisplay-Italic.eot');
+    src: url('font/PlayfairDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('font/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('font/PlayfairDisplay-Italic.woff') format('woff'),
+        url('font/PlayfairDisplay-Italic.ttf') format('truetype'),
+        url('font/PlayfairDisplay-Italic.svg#PlayfairDisplay-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('font/PlayfairDisplay-Bold_1.eot');
+    src: url('font/PlayfairDisplay-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('font/PlayfairDisplay-Bold_1.woff2') format('woff2'),
+        url('font/PlayfairDisplay-Bold_1.woff') format('woff'),
+        url('font/PlayfairDisplay-Bold_1.ttf') format('truetype'),
+        url('font/PlayfairDisplay-Bold_1.svg#PlayfairDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
