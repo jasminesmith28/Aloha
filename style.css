@@ -347,6 +347,10 @@
   box-sizing: border-box;
 }
 
+*:focus{
+  outline: 0px;
+}
+
 html{
     font-size:10px;
     box-sizing: border-box;
@@ -355,6 +359,7 @@ html{
 /* .container{
   max-width: 1240px;
 } */
+
 header{
     height: 10rem;
     display: flex;
@@ -399,6 +404,7 @@ header a:hover{
   text-align: center;
   word-spacing: 1.5rem;
   order:3;
+  margin-top: 4%;
 }
 
 .aloha img{
@@ -409,16 +415,9 @@ header a:hover{
   width: 25%;
 }
 
-
-nav{
-    margin-top: 4%;
-    word-spacing: 20%;
-}
-
 section{
   text-align:center;
 }
-
 
 .banner{
   background-image: linear-gradient(
@@ -445,9 +444,7 @@ section{
 
 .banner p{
   font-family: "Raleway";
-  font-weight: 200;
   padding-top: 35%;
-  font-size: 1.4rem;
   color: white;
   text-shadow: 1px 1px #666666;
 }
@@ -455,22 +452,18 @@ section{
 p {
   color: #2d2d2d;
   font-family: "Raleway";
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 100;
-  line-height: 1.8;
+  line-height: 2;
 }
 
 .styles{
-  height: 19rem;
-  box-sizing: border-box;
-  margin: 5% 0;
+  margin: 12% 0;
   padding: 0 10%;
 }
 
-h2{
-  font-size: 2.5rem;
-  color: #2d2d2d;
-  font-weight: bold;
+.styles h2{
+  margin: 2% 0;
 }
 
 span{
@@ -567,11 +560,24 @@ span{
   width: 100vw;
 }
 
+h2{
+  font-size: 2.5rem;
+  color: #2d2d2d;
+  font-weight: bold;
+  margin: 8% 0 4% 0;
+}
+
 .carousel{
   width: 100%;
   text-align: center;
   margin-bottom: 10vh;
 }
+
+.carousel img{
+  height:80%;
+  width:60%;
+}
+
 .carousel-cell {
   width: 100%;
 }
@@ -596,11 +602,11 @@ h3{
 .updates{
   background-image: linear-gradient(
       0deg,
-  rgba(0, 0, 0, 0.158) 0%, 
+  rgba(0, 0, 0, 0.103) 0%, 
   rgba(0, 0, 0, 0.123) 100%), url(images/wave-bkgd.jpg);
-  background-position: bottom;
   height: 25rem;
-  background-size: auto, cover;
+  background-size: auto;
+  background-position: bottom;
 }
 
 .sign-up{
@@ -632,10 +638,6 @@ h3{
   font-family: "Raleway";
 }
 
-#email:focus{
-  outline: none;
-}
-
 .subscribe {
   font-family: "Raleway";
   font-weight: 100;
@@ -647,16 +649,11 @@ h3{
   padding: 0px 20px;
 }
 
-
 .updates p {
   color: white;
-  font-family: "Raleway";
-  font-size: 1.2rem;
   text-shadow: 1px 1px #666666;
-  font-weight: 100;
   line-height: 2.2;
 }
-
 
 footer{
   background-color: #242424;
@@ -722,7 +719,6 @@ li{
 
 address{
   color:#969696;
-  font-family: 'PlayfairDisplay';
   font-style: normal;
   font-size: 1.2rem;
 }
@@ -759,15 +755,11 @@ footer a{
 
   .aloha{
     width:25%;
-    display: flex;
-    margin: 2% 0 0 2%;
     order: 1;
 }
 
 .cart{
   width:25%;
-  display: flex;
-  margin: 2% 2% 0 0;
   order: 3;
 }
 
@@ -776,19 +768,10 @@ footer a{
   order:2;
 }
 
-.aloha img{
-    width:50%;
-}
-
-.cart img{
-  width: 20%;
-}
-
-
 nav{
     word-spacing: 20%;
 }
-  .banner{
+.banner{
       background-size: auto, 150px, cover;
       height: 40rem;
     }
@@ -796,20 +779,22 @@ nav{
 
 .banner h1{
   font-size: 4.4rem;
-  text-shadow: 1px 1px #666666;
-  font-weight: 100;
-  margin: 0 15%;
+  /* text-shadow: 1px 1px #666666; */
+  /* font-weight: 100; */
+  /* margin: 0 15%; */
  }
  
  .banner p{
-   font-family: "Raleway";
-   font-weight: 200;
    padding-top: 15%;
    font-size: 2.0rem;
  }
  
     p {
-      font-size: 2.0rem;
+      font-size: 2.4rem;
+    }
+    
+    .styles{
+      padding: 0 15%;
     }
     
     h2{
@@ -821,7 +806,6 @@ nav{
     }
   
     .mens{
-      display: flex;
       width: 50%;
       border-bottom: solid;
       border-color: white;
@@ -882,8 +866,7 @@ h3{
 
 .updates p {
   font-size: 1.5rem;
-  line-height: 2.2;
-  width: 65%;
+  width: 85%;
   margin: 0 0 4% 0;
 }
 
@@ -930,6 +913,14 @@ header{
   width: 45%;
   order:2;
   word-spacing: 4rem;
+}
+
+.styles{
+  margin: 8% 0;
+}
+
+h2{
+  font-size: 6.0rem;
 }
 
 .aloha img{
