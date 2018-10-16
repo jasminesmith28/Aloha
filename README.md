@@ -2,7 +2,7 @@
 
 Aloha is a responsive website for Red Academy. 
 
-#Personal Learning
+## Personal Learning
 
 Although I had introduced to basic HTML and CSS before I feel I have a better understanding of why and how you should use HTML and CSS.  
 
