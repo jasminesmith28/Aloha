@@ -475,14 +475,13 @@ span{
   display: flex;
   align-content: center;
   flex-wrap:wrap;
-  min-height: 20vh;
 }
 
 .collage div{
   display: flex;
   justify-content:center;
   align-items: center;
-  height: 25vh;
+  /* height: 25vh; */
 }
 
 .collage h2{
@@ -501,6 +500,7 @@ span{
   rgba(0, 0, 0, 0.123) 100%), url(images/mens-category.jpg);
   background-size: cover;
   width: 100vw;
+  height: 50vw;
   border-bottom: solid;
   border-color: white;
 }
@@ -512,6 +512,7 @@ span{
   rgba(0, 0, 0, 0.123) 100%), url(images/trends-category.jpg);
   background-size: cover;
   width: 50vw;
+  height: 50vw;
   border-bottom: solid;
   border-right:solid;
   border-color: white;
@@ -524,6 +525,7 @@ span{
   rgba(0, 0, 0, 0.123) 100%), url(images/glasses-category.jpg);
   background-size: cover;
   width:50vw;
+  height: 50vw;
   border-bottom: solid;
   border-color: white;
 }
@@ -535,6 +537,7 @@ span{
   rgba(0, 0, 0, 0.123) 100%), url(images/sale-category.jpg);
   background-size: cover;
   width: 50vw;
+  height: 50vw;
   border-bottom: solid;
   border-right:solid;
   border-color: white;
@@ -547,6 +550,7 @@ span{
   rgba(0, 0, 0, 0.199) 100%), url(images/bags-category.jpg);
   background-size: cover;
   width: 50vw;
+  height: 50vw;
   border-bottom: solid;
   border-color: white;
 }
@@ -558,6 +562,7 @@ span{
   rgba(0, 0, 0, 0.123) 100%), url(images/womens-category.jpg);
   background-size: cover;
   width: 100vw;
+  height: 50vw;
 }
 
 h2{
@@ -799,44 +804,53 @@ nav{
     
     h2{
       font-size: 3.5rem;
+      margin: 6% 0% 4% 0;
     }
     
-    .collage div{
-      height: 35vh;
-    }
+    /* .collage div{
+      height: 30vh;
+    } */
   
     .mens{
-      width: 50%;
+      width: 50vw;
+      height: 25vw;
       border-bottom: solid;
       border-color: white;
 
     }
 
     .trends{
-      width:25%;
+      width:25vw;
+      height: 25vw;
       border-left: solid;
       border-color: white;
       } 
     
       .glasses{
-      width:25%;
+      width:25vw;
+      height: 25vw;
       }
   
     .womens{
       display: flex;
-      width: 50%;  
+      width: 50vw; 
+      height: 25vw; 
     }
 
     .sale{
-      width:25%;
+      width:25vw;
+      height: 25vw;
       border-right: solid;
       border-color: white;
+      border-bottom: 0px;
       } 
     
       .bag{
-      width:25%;
+      width:25vw;
+      height: 25vw;
       border-right: solid;
       border-color: white;
+      border-bottom: 0px;
       }
 
     div.backpack {
@@ -850,7 +864,6 @@ nav{
 h3{
   font-size: 2.0rem;
   width: 75%;
-  margin: 0 10%;
 }
   
 .updates{
@@ -955,10 +968,10 @@ h2{
  margin: 0 20%;
 }
 
-
+/* 
 .collage div{
   height: 50vh;
-}
+} */
 
 h3{
   font-size: 2.4rem;
@@ -980,8 +993,13 @@ h3{
   height: 35rem;
 }
 
+.updates h2{;
+  font-size: 5rem;
+}
+
 .updates p {
-  width: 45%;
+  font-size: 2.0rem;
+  width: 60%;
 }
 
 }
