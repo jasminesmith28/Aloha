@@ -1,11 +1,15 @@
-##Aloha
+# Aloha
 
 Aloha is a responsive website for Red Academy. 
 
-##Technologies used
+#Personal Learning
 
-HTML5, CSS3(flex, media queries, flickity), JavaScript, JQuery
+Although I had introduced to basic HTML and CSS before I feel I have a better understanding of why and how you should use HTML and CSS.  
 
-##Webite Link
+## Technologies used
 
-<a href="https://jasminesmith28.github.io/Aloha/">
+HTML5, CSS3(flex, media queries, flickity, fonts) JavaScript, JQuery, Git, Github.
+
+## Webite Link
+
+"https://jasminesmith28.github.io/Aloha/"

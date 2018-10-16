@@ -356,10 +356,6 @@ html{
     box-sizing: border-box;
 }
 
-/* .container{
-  max-width: 1240px;
-} */
-
 header{
     height: 10rem;
     display: flex;
@@ -481,7 +477,6 @@ span{
   display: flex;
   justify-content:center;
   align-items: center;
-  /* height: 25vh; */
 }
 
 .collage h2{
@@ -784,9 +779,6 @@ nav{
 
 .banner h1{
   font-size: 4.4rem;
-  /* text-shadow: 1px 1px #666666; */
-  /* font-weight: 100; */
-  /* margin: 0 15%; */
  }
  
  .banner p{
@@ -807,9 +799,6 @@ nav{
       margin: 6% 0% 4% 0;
     }
     
-    /* .collage div{
-      height: 30vh;
-    } */
   
     .mens{
       width: 50vw;
@@ -945,33 +934,14 @@ h2{
 }
 
 .banner{
-  background-image: linear-gradient(
-      0deg,
-  rgba(0, 0, 0, 0.158) 0%, 
-  rgba(0, 0, 0, 0.267) 100%), url(images/banner-girl.png), url(images/flower-bkgd.jpg);
-  background-repeat: no-repeat;
-  background-position:center, bottom center, center;
   background-size: auto, 190px, cover;
-  text-align: center;
   height: 50rem;
-  display: flex;
-  flex-direction: column;
-}
 
+}
 
 .banner h1{
  font-size: 5.5rem;
- font-family: "PlayfairDisplay";
- color: white;
- text-shadow: 1px 1px #666666;
- font-weight: 100;
- margin: 0 20%;
 }
-
-/* 
-.collage div{
-  height: 50vh;
-} */
 
 h3{
   font-size: 2.4rem;
