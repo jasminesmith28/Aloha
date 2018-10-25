@@ -13,3 +13,8 @@ HTML5, CSS3(flex, media queries, flickity, fonts) JavaScript, JQuery, Git, Githu
 ## Webite Link
 
 "https://jasminesmith28.github.io/Aloha/"
+
+
+## Clean up team report
+
+Resembling the mess of an intoxicated teenager, A lot needs to be worked on here. Be more considerate of our disabled.
